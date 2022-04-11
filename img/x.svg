@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-x">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="x" clip-path="url(#clip-x)">
+    <line id="Ligne_1" data-name="Ligne 1" x2="31.592" y2="28.966" transform="translate(9.204 10.517)" fill="none" stroke="#fff" stroke-width="4"/>
+    <line id="Ligne_2" data-name="Ligne 2" y1="28.488" x2="31.592" transform="translate(9.204 10.995)" fill="none" stroke="#fff" stroke-width="4"/>
+  </g>
+</svg>

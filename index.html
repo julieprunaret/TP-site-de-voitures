@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+
+    <div id="page">
+        <header>
+            <nav id="navHamburger">
+                <a href="#"><img src="img/list.svg" alt="Bootstrap" width="50" height="50"></a>
+                <ul class="monMenuVisible">
+                    <li><a href="#">mon compte</a></li>
+                    <li><a href="#">locations vedettes</a></li>
+                    <li><a href="#">nos valeurs</a></li>
+                    <li><a href="#">nous trouver</a></li>
+                </ul>
+            </nav>
+<h1>Bienvenue à bord <br>
+                <span class="subtitle">Location de voiture 24h/24 et 7j/7</span>
+            </h1>
+            <nav>
+                <form  action="/action_page.php" method="post">
+                        <label class="" for="adress"></label>
+                        <select class="dropButton" name="adress" id="adress">
+                            <option value="01">Adresse de départ</option>
+                            <option value="02">Lieu de travail</option>
+                            <option value="03">Lieu de vacances</option>
+                            <option value="04">Autre</option>
+                        </select>
+                    
+                    <div class="input-group mb-3 ">
+                        <input type="date" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="white" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z" />
+                        </svg></span>
+                    </div>
+                    <div class="input-group mb-3 ">
+                        <input type="date" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="white" d="M9,10H7V12H9V10M13,10H11V12H13V10M17,10H15V12H17V10M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z" />
+                        </svg></span>
+                    </div>
+                </form>
+                <button>valider ma recherche</button>
+            </nav>
+
+        </header>
+        <main>  
+            <div class="filters">
+                <p>7 résultats</p>
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <section>
+
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule1.0.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule1.1.png" alt="Peugeot 208"> </div>                       
+                        <div><img src="img/vehicule1.2.png" alt="Peugeot 208">   </div>                     
+                        <div><img src="img/vehicule1.3.png" alt="Peugeot 208"></div>
+                    </div>
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 208</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule2.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule2.1.png" alt="Peugeot 208">  </div>                      
+                        <div><img src="img/vehicule2.2.png" alt="Peugeot 208"> </div>                       
+                        <div><img src="img/vehicule2.3.png" alt="Peugeot 208"></div>
+                    </div>
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule3.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule3.1.png" alt="Peugeot 208"> </div>                       
+                        <div><img src="img/vehicule3.2.png" alt="Peugeot 208"> </div>                       
+                        <div><img src="img/vehicule3.3.png" alt="Peugeot 208"></div>
+                    </div> 
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule4.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule4.1.png" alt="Peugeot 208"></div>                        
+                        <div><img src="img/vehicule4.2.png" alt="Peugeot 208"></div>                        
+                        <div><img src="img/vehicule4.3.png" alt="Peugeot 208"></div>
+                    </div>                    
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule1.0.png" alt="Peugeot 208"></div> 
+                        <div><img src="img/vehicule1.1.png" alt="Peugeot 208"></div>                         
+                        <div><img src="img/vehicule1.2.png" alt="Peugeot 208"></div>                         
+                        <div><img src="img/vehicule1.3.png" alt="Peugeot 208"></div> 
+                    </div>                    
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule1.0.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule1.1.png" alt="Peugeot 208"></div>                   
+                        <div><img src="img/vehicule1.2.png" alt="Peugeot 208"></div>                        
+                        <div><img src="img/vehicule1.3.png" alt="Peugeot 208"></div>
+                    </div>
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>  
+                    </div>                  
+                </article>
+                <hr>
+                <article>
+                    <div class="monMiniSlider">
+                        <div><img src="img/vehicule1.0.png" alt="Peugeot 208"></div>
+                        <div><img src="img/vehicule1.1.png" alt="Peugeot 208"></div>                        
+                        <div><img src="img/vehicule1.2.png" alt="Peugeot 208"> </div>                       
+                        <div><img src="img/vehicule1.3.png" alt="Peugeot 208"></div>
+                    </div>
+                    <div class="descriptionArticles">
+                        <h2>Peugeot 8</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>999€ - Agence de Paris</p>
+                        <button type="button" class="btn btnArticle">Réserver et payer</button>                    
+                    </div>
+                </article>
+                <hr>
+            </section>
+        </main>
+        <footer>
+            <div class="img"><img src="img/agence.jpg" alt=""></div>
+            <p>Notre Agence de Paris
+                <br> 300 boulevard de Vaugirard , 75015, Paris
+                <br> Ouvert 7j/7 de 9h à 13h et de 14h à 20h
+                <br> 01 49 78 21 33
+                <br> contact@vtc.com
+            </p>
+        </footer>
+    </div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

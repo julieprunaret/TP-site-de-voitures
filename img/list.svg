@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-list">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="list" clip-path="url(#clip-list)">
+    <g id="Groupe_1" data-name="Groupe 1" transform="translate(0 -0.5)">
+      <line id="Ligne_1" data-name="Ligne 1" x2="33" transform="translate(8.5 13.5)" fill="none" stroke="#fff" stroke-width="4"/>
+      <line id="Ligne_1-2" data-name="Ligne 1" x2="33" transform="translate(8.5 25.5)" fill="none" stroke="#fff" stroke-width="4"/>
+      <line id="Ligne_1-3" data-name="Ligne 1" x2="33" transform="translate(8.5 37.5)" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
